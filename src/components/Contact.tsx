@@ -66,6 +66,18 @@ export default function Contact() {
               <a href="https://wa.me/59172512525" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm font-medium rounded-lg bg-[#25D366] text-white hover:bg-[#20BD5A] transition-all duration-200">Chat</a>
             </div>
 
+            {/* English Certification */}
+            <a href="/ef-set-certificate.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <div className="w-12 h-12 rounded-xl bg-[#8B5CF6]/10 flex items-center justify-center">
+                <svg className="w-5 h-5 text-[#8B5CF6]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+              </div>
+              <div className="flex-1">
+                <div className="text-xs text-[#64748B] font-medium uppercase tracking-wider">English Level</div>
+                <div className="text-[#0F172A] font-semibold group-hover:text-[#8B5CF6] transition-colors duration-200">C1 Advanced — EF SET Certified (63/100)</div>
+              </div>
+              <span className="px-4 py-2 text-sm font-medium rounded-lg border border-[#E2E8F0] text-[#8B5CF6] group-hover:border-[#8B5CF6] transition-all duration-200">View →</span>
+            </a>
+
             {/* Availability */}
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-xl bg-[#22C55E]/10 flex items-center justify-center">
