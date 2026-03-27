@@ -11,7 +11,7 @@ const RESPONSES: Record<string, string> = {
   projects: "Key projects include: (1) TradingView multi-timeframe session indicator, (2) SOL 15m momentum scalper bot, (3) XRP VWAP EMA cloud scalper with Telegram alerts, (4) Enterprise automation pipelines for Intcomex, (5) AI chatbot portfolio integration. Check the Projects section for details!",
   trading: "Nicolas has 6+ years of live trading experience and has built 5+ custom trading bots from scratch. He specializes in Pine Script indicators for TradingView, Python-based scalping bots using ccxt, and VWAP/EMA strategies with real-time Telegram alerts.",
   hire: "You can hire Nicolas through Upwork for freelance projects ($50-800 per project depending on scope), or contact him directly for full-time opportunities. He's open to Data Analyst, Python Developer, AI Specialist, and Software Developer roles. Click 'Hire Me on Upwork' in the Contact section!",
-  contact: "You can reach Nicolas at: nicolas.bustamante@example.com. He's based in Cochabamba, Bolivia (GMT-4) and works with US clients. He's currently available for new projects — check the Contact section for more details!",
+  contact: "You can reach Nicolas at: nbustamante.work@gmail.com or WhatsApp: +59172512525. He's based in Cochabamba, Bolivia (GMT-4) and works with US clients. He's currently available for new projects — check the Contact section for more details!",
   price: "Pricing varies by project: Python automation scripts ($50-200), AI chatbot development ($150-500), data analysis & dashboards ($75-300), trading bot development ($200-800), bilingual support systems ($100-400). All work is done personally — no outsourcing!",
   python: "Nicolas has been working with Python for 4+ years, building automations, data pipelines, trading bots, API integrations, and AI prototypes. He's comfortable with libraries like pandas, ccxt, requests, and various LLM APIs.",
   ai: "Nicolas builds AI chatbots using Gemini API and OpenAI. He's integrated AI into portfolio sites, customer support systems, and internal tools. He focuses on practical business applications of AI rather than research.",
@@ -29,7 +29,7 @@ function getResponse(input: string): string {
   if (lower.match(/python|script|automat/)) return RESPONSES.python;
   if (lower.match(/ai|chatbot|llm|gemini|openai|gpt/)) return RESPONSES.ai;
   if (lower.match(/hi|hello|hey|sup|greet/)) return RESPONSES.default;
-  return "That's a great question! I'd recommend reaching out to Nicolas directly for detailed answers — you can email him at nicolas.bustamante@example.com or click 'Hire Me on Upwork' in the Contact section. Is there anything specific about his skills or projects I can help with?";
+  return "That's a great question! I'd recommend reaching out to Nicolas directly for detailed answers — you can email him at nbustamante.work@gmail.com or WhatsApp: +59172512525. Click 'Hire Me on Upwork' in the Contact section for freelance projects. Is there anything specific about his skills or projects I can help with?";
 }
 
 export default function ChatbotWidget() {
