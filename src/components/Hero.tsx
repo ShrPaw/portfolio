@@ -77,7 +77,7 @@ export default function Hero() {
         >
           <div className="absolute -inset-4 rounded-full opacity-30 blur-xl" style={{ background: "conic-gradient(from 0deg, #1A73E8, #FACC15, #00D99F, #1A73E8)", animation: "spin-slow 8s linear infinite" }} />
           <div className="absolute -inset-2 rounded-full opacity-40" style={{ background: "conic-gradient(from 180deg, #1A73E8, #FACC15, #00D99F, #1A73E8)", animation: "spin-slow 6s linear infinite reverse", padding: "2px", mask: "radial-gradient(farthest-side, transparent calc(100% - 2px), black calc(100% - 2px))", WebkitMask: "radial-gradient(farthest-side, transparent calc(100% - 2px), black calc(100% - 2px))" }} />
-          <img src="/nicolas-profile.jpg" alt="Nicolas Bustamante" className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover shadow-2xl relative z-10 ring-4 ring-white" style={{ objectPosition: "center 30%" }} />
+          <img src="/nicolas-profile.jpg" alt="Nicolas Bustamante" className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover shadow-2xl relative z-10 ring-4 ring-white" style={{ objectPosition: "center 20%" }} />
         </motion.div>
 
         {/* Availability badge */}
