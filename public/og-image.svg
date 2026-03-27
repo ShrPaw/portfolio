@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g1" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#1A73E8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="15%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#00D99F" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="50%" cy="50%" r="30%">
+      <stop offset="0%" stop-color="#FACC15" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <circle cx="950" cy="100" r="400" fill="url(#g1)"/>
+  <circle cx="150" cy="500" r="350" fill="url(#g2)"/>
+  <circle cx="600" cy="315" r="250" fill="url(#g3)"/>
+  <!-- Badge -->
+  <rect x="430" y="105" width="340" height="44" rx="22" fill="rgba(26,115,232,0.12)" stroke="rgba(26,115,232,0.3)" stroke-width="1"/>
+  <circle cx="458" cy="127" r="5" fill="#22C55E"/>
+  <text x="475" y="133" fill="#1A73E8" font-family="Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600">Available for Freelance &amp; Full-time</text>
+  <!-- Name -->
+  <text x="600" y="260" text-anchor="middle" fill="white" font-family="Inter,Helvetica,Arial,sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Nicolas</text>
+  <text x="600" y="260" text-anchor="middle" fill="transparent" font-family="Inter,Helvetica,Arial,sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Nicolas</text>
+  <text x="600" y="350" text-anchor="middle" fill="white" font-family="Inter,Helvetica,Arial,sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Bustamante<tspan fill="#1A73E8">.</tspan></text>
+  <!-- Subtitle -->
+  <text x="600" y="400" text-anchor="middle" fill="#94A3B8" font-family="Inter,Helvetica,Arial,sans-serif" font-size="22" font-weight="500">Python Developer · AI Automation · Trading Systems</text>
+  <!-- Tags -->
+  <rect x="260" y="430" width="120" height="36" rx="8" fill="rgba(26,115,232,0.15)" stroke="rgba(26,115,232,0.3)" stroke-width="1"/>
+  <text x="320" y="454" text-anchor="middle" fill="#60A5FA" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Python</text>
+  <rect x="400" y="430" width="130" height="36" rx="8" fill="rgba(0,217,159,0.12)" stroke="rgba(0,217,159,0.25)" stroke-width="1"/>
+  <text x="465" y="454" text-anchor="middle" fill="#00D99F" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">AI Chatbots</text>
+  <rect x="550" y="430" width="130" height="36" rx="8" fill="rgba(250,204,21,0.12)" stroke="rgba(250,204,21,0.25)" stroke-width="1"/>
+  <text x="615" y="454" text-anchor="middle" fill="#FACC15" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Trading Bots</text>
+  <rect x="700" y="430" width="100" height="36" rx="8" fill="rgba(236,72,153,0.12)" stroke="rgba(236,72,153,0.25)" stroke-width="1"/>
+  <text x="750" y="454" text-anchor="middle" fill="#F472B6" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">EN / ES</text>
+  <!-- Bottom -->
+  <text x="600" y="580" text-anchor="middle" fill="#475569" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">🇧🇴  Bolivia  ·  🇺🇸  USA Clients</text>
+  <text x="1080" y="590" text-anchor="end" fill="#475569" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">nbustamante.work@gmail.com</text>
+</svg>

@@ -113,6 +113,11 @@ export default function Hero() {
           </MagneticButton>
         </motion.div>
 
+        <motion.a href="/cv-nicolas-bustamante.html" target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-[#64748B] hover:text-[#1A73E8] transition-colors duration-200 group" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.9 }}>
+          <svg className="w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+          Download CV / Resume
+        </motion.a>
+
         <motion.div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-[#64748B]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 1 }}>
           <span className="flex items-center gap-1.5"><span className="text-lg">🇧🇴</span> Bolivia</span>
           <span className="w-1 h-1 bg-[#CBD5E1] rounded-full" />
